@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=CS+%2B+Math+%40+UT+Austin+%C2%B7+ML%2FAI;Multimodal+AI+%C2%B7+LLM+Research+%C2%B7+Diffusion+Models;From+first+principles+to+production" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=CS+%40+UT+Austin+%C2%B7+AI%2FML+Concentration;Multimodal+AI+%C2%B7+LLM+Research+%C2%B7+Diffusion+Models;From+first+principles+to+production" alt="Typing SVG" />
 
 <br/>
 
@@ -10,7 +10,7 @@
 
 ---
 
-I'm **Ayman Mahfuz** — a CS + Math student at UT Austin (ML/AI concentration) who builds and studies machine learning systems. My work spans mechanistic interpretability of LLMs, diffusion model implementation, energy-efficient inference, and multimodal applied ML. I like going deep on problems — understanding *why* things work, not just whether they do.
+I'm **Ayman Mahfuz** — a CS student at UT Austin (AI/ML concentration) currently working at **Arm**. I've done ML research across four labs at UT spanning medical imaging, LLM evaluation, large-scale data pipelines, and energy-efficient inference. I like going deep on problems — understanding *why* things work, not just whether they do.
 
 ---
 
@@ -18,22 +18,22 @@ I'm **Ayman Mahfuz** — a CS + Math student at UT Austin (ML/AI concentration) 
 
 **[Tool-Call Mechanistic Interpretability](https://github.com/AymanMahfuz27/tool_call_mech_interp)** — Circuit-level study of how a fine-tuned GPT-2 Small decides to call a tool vs. answer directly. Applies activation patching, direct logit attribution, SAE feature analysis, and circuit ablation on a confound-balanced dataset with seed robustness and causal control experiments.
 
-**Energy Profiling of LLM & Diffusion Inference** *(research paper)* — First cross-modality energy profiling study: 577 runs on NVIDIA GH200. Key finding: FP8 quantization saves 24% LLM energy but zero for diffusion — traced to memory-bandwidth vs. compute-bound differences. Optimization stacking yields 68% LLM and 94% diffusion savings with <3% quality loss. *UT Austin · CS 378: Energy-Efficient Computing (2026)*
+**[Stable Diffusion from Scratch](https://github.com/AymanMahfuz27/stable-diffusion-from-scratch)** — Full DDPM + DDIM from scratch in PyTorch on MNIST & CIFAR-10, no Hugging Face. Covers cosine vs. linear noise schedules, EMA-stabilized training, and a full step-count speed/quality tradeoff analysis. [📖 Docs](https://aymanmahfuz27-stable-diffusion-from-scratch.mintlify.app/training/mnist)
 
-**[Stable Diffusion from Scratch](https://github.com/AymanMahfuz27/stable-diffusion-from-scratch)** — Full DDPM + DDIM from scratch in PyTorch on MNIST & CIFAR-10, no Hugging Face. Covers cosine vs. linear noise schedules, EMA-stabilized training, and a full DDIM step-count speed/quality tradeoff analysis. [📖 Docs](https://aymanmahfuz27-stable-diffusion-from-scratch.mintlify.app/training/mnist)
+**Energy Profiling of LLM & Diffusion Inference** *(research paper)* — First cross-modality energy profiling study: 577 runs on NVIDIA GH200. FP8 quantization saves 24% LLM energy but zero for diffusion — traced to memory-bandwidth vs. compute-bound differences. Optimization stacking yields 68% LLM and 94% diffusion savings with <3% quality loss. *UT Austin · CS 378: Energy-Efficient Computing (2026)*
 
 **[TikTok Video Auto-Sorter](https://github.com/AymanMahfuz27/tiktok-auto-collection-sorter)** — Multimodal classifier (CLIP + Whisper) that auto-categorizes saved TikToks into personal folders via transfer learning. ~90% accuracy across 8 categories, with a TikTok-styled active-learning labeling UI and FastAPI backend. [📖 Architecture](https://aymanmahfuz27-tiktok-auto-collection-sorter.mintlify.app/concepts/architecture)
 
-**Helm** *(stealth)* — AI-native workspace for product managers. Currently in development.
+**[Helm](https://helmpm.app)** — Cursor for product managers. AI-native PM workspace.
 
 ---
 
 ## 🔬 Research Experience
 
 - **ML Research @ Dell Medical School** — Medical imaging benchmarks (pancreas segmentation, cancer, diabetes) using CNNs, MONAI, and vision transformers
-- **NLP Research @ University of Maryland** — Human-chatbot dynamics analysis; co-authored a CHI 2024 conference paper
 - **Medical LLM Research** — Assessing consistency and reliability of LLM-generated clinical diagnoses at scale
-- **Software Engineering Research** — Pipelines ingesting 50M+ news articles and 70M+ comments with dynamic dashboards
+- **Software Engineering Research** — Pipelines ingesting 50M+ news articles and 70M+ comments with dynamic dashboards and visualizations
+- **Energy-Efficient Computing Research** — Cross-modality inference profiling on production-grade NVIDIA GH200 hardware
 
 ---
 
