@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=AI+Safety+%26+Interpretability+Researcher;UT+Austin+%E2%80%94+CS+%2B+Mathematics+(ML%2FAI);Understanding+how+models+actually+work" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=CS+%2B+Math+%40+UT+Austin+%C2%B7+ML%2FAI;Multimodal+AI+%C2%B7+LLM+Research+%C2%B7+Diffusion+Models;From+first+principles+to+production" alt="Typing SVG" />
 
 <br/>
 
@@ -10,27 +10,30 @@
 
 ---
 
-I'm **Ayman Mahfuz** — a CS + Math student at UT Austin (ML/AI concentration) focused on **AI safety and interpretability**. My work spans circuit-level mechanistic analysis of transformer internals, large-scale empirical profiling of inference systems, and applied multimodal ML. I care about building AI that is not just capable, but *comprehensible* — and I pursue that through rigorous, empirical research.
+I'm **Ayman Mahfuz** — a CS + Math student at UT Austin (ML/AI concentration) who builds and studies machine learning systems. My work spans mechanistic interpretability of LLMs, diffusion model implementation, energy-efficient inference, and multimodal applied ML. I like going deep on problems — understanding *why* things work, not just whether they do.
 
 ---
 
-## 🏆 Project Tier List
+## 🚀 Projects
 
-| Tier | Project | Description | Key Result |
-|:---:|---|---|---|
-| **S** 🔬 | **Energy Profiling of LLM & Diffusion Inference** *(research paper)* | First systematic cross-modality study — 577 runs across LLMs and diffusion models on NVIDIA GH200 | Optimization is **modality-dependent**: FP8 saves 24% LLM energy but 0% for diffusion; stacking yields 68% LLM and 94% diffusion savings |
-| **S** 🔍 | [**Tool-Call Mechanistic Interpretability**](https://github.com/AymanMahfuz27/tool_call_mech_interp) | Circuit-level analysis of tool-calling decisions in GPT-2: activation patching, direct logit attribution, SAE features, circuit ablations | Identified sparse causal circuits governing tool-vs-answer routing with seed robustness and positive-control validation |
-| **A** 🧠 | [**Stable Diffusion from Scratch**](https://github.com/AymanMahfuz27/stable-diffusion-from-scratch) | Full DDPM + DDIM from scratch in PyTorch on MNIST & CIFAR-10 — no Hugging Face, no shortcuts | DDIM achieves near-DDPM quality in 10× fewer steps; includes cosine vs linear schedule analysis and full timing/quality trade-off benchmarks |
-| **A** 🤖 | [**TikTok Video Auto-Sorter**](https://github.com/AymanMahfuz27/tiktok-auto-collection-sorter) | Multimodal classifier (CLIP + Whisper) that auto-categorizes short-form videos into personal folders via transfer learning | ~90% accuracy on 213 labeled videos across 8 categories; active-learning labeling UI + full-stack FastAPI pipeline |
+**[Tool-Call Mechanistic Interpretability](https://github.com/AymanMahfuz27/tool_call_mech_interp)** — Circuit-level study of how a fine-tuned GPT-2 Small decides to call a tool vs. answer directly. Applies activation patching, direct logit attribution, SAE feature analysis, and circuit ablation on a confound-balanced dataset with seed robustness and causal control experiments.
+
+**Energy Profiling of LLM & Diffusion Inference** *(research paper)* — First cross-modality energy profiling study: 577 runs on NVIDIA GH200. Key finding: FP8 quantization saves 24% LLM energy but zero for diffusion — traced to memory-bandwidth vs. compute-bound differences. Optimization stacking yields 68% LLM and 94% diffusion savings with <3% quality loss. *UT Austin · CS 378: Energy-Efficient Computing (2026)*
+
+**[Stable Diffusion from Scratch](https://github.com/AymanMahfuz27/stable-diffusion-from-scratch)** — Full DDPM + DDIM from scratch in PyTorch on MNIST & CIFAR-10, no Hugging Face. Covers cosine vs. linear noise schedules, EMA-stabilized training, and a full DDIM step-count speed/quality tradeoff analysis. [📖 Docs](https://aymanmahfuz27-stable-diffusion-from-scratch.mintlify.app/training/mnist)
+
+**[TikTok Video Auto-Sorter](https://github.com/AymanMahfuz27/tiktok-auto-collection-sorter)** — Multimodal classifier (CLIP + Whisper) that auto-categorizes saved TikToks into personal folders via transfer learning. ~90% accuracy across 8 categories, with a TikTok-styled active-learning labeling UI and FastAPI backend. [📖 Architecture](https://aymanmahfuz27-tiktok-auto-collection-sorter.mintlify.app/concepts/architecture)
+
+**Helm** *(stealth)* — AI-native workspace for product managers. Currently in development.
 
 ---
 
 ## 🔬 Research Experience
 
-- **ML Research @ Dell Medical School** — Benchmarks in medical imaging (pancreas segmentation, cancer, diabetes) using CNNs, MONAI, and vision transformers
+- **ML Research @ Dell Medical School** — Medical imaging benchmarks (pancreas segmentation, cancer, diabetes) using CNNs, MONAI, and vision transformers
 - **NLP Research @ University of Maryland** — Human-chatbot dynamics analysis; co-authored a CHI 2024 conference paper
 - **Medical LLM Research** — Assessing consistency and reliability of LLM-generated clinical diagnoses at scale
-- **Software Engineering Research** — Pipelines ingesting 50M+ news articles and 70M+ comments with dynamic dashboards and visualizations
+- **Software Engineering Research** — Pipelines ingesting 50M+ news articles and 70M+ comments with dynamic dashboards
 
 ---
 
