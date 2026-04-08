@@ -18,6 +18,8 @@ I'm **Ayman Mahfuz** — a CS student at UT Austin (AI/ML concentration) current
 
 **[Tool-Call Mechanistic Interpretability](https://github.com/AymanMahfuz27/tool_call_mech_interp)** — Circuit-level study of how a fine-tuned GPT-2 Small decides to call a tool vs. answer directly. Applies activation patching, direct logit attribution, SAE feature analysis, and circuit ablation on a confound-balanced dataset with seed robustness and causal control experiments.
 
+**[Modern LLM](https://github.com/AymanMahfuz27/modern_llm)** — From-scratch implementation of a frontier-style LLM training pipeline: RoPE, RMSNorm, SwiGLU, attention sinks, and a full alignment workflow (Pretrain → SFT → DPO → Verifier). Trained a 253M parameter model achieving **27.03 perplexity on WikiText-2** — outperforming GPT-2 (124M) at 40.64. [📖 Docs](https://aymanmahfuz27-modern_llm.mintlify.app/architecture/overview)
+
 **[Stable Diffusion from Scratch](https://github.com/AymanMahfuz27/stable-diffusion-from-scratch)** — Full DDPM + DDIM from scratch in PyTorch on MNIST & CIFAR-10, no Hugging Face. Covers cosine vs. linear noise schedules, EMA-stabilized training, and a full step-count speed/quality tradeoff analysis. [📖 Docs](https://aymanmahfuz27-stable-diffusion-from-scratch.mintlify.app/training/mnist)
 
 **Energy Profiling of LLM & Diffusion Inference** *(research paper)* — First cross-modality energy profiling study: 577 runs on NVIDIA GH200. FP8 quantization saves 24% LLM energy but zero for diffusion — traced to memory-bandwidth vs. compute-bound differences. Optimization stacking yields 68% LLM and 94% diffusion savings with <3% quality loss. *UT Austin · CS 378: Energy-Efficient Computing (2026)*
