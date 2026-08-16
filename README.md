@@ -1,8 +1,8 @@
 # Ayman Mahfuz
 
-I'm a CS student at UT Austin. I like building ML systems I can measure, debug, and understand.
+I'm a CS student at UT Austin. I love coding, and build ML systems I can measure, debug, and understand.
 
-Right now, I work on ML-guided CPU validation at Arm and multi-agent reinforcement learning at Texas Robotics.
+Most recently, I worked on ML-guided CPU validation at Arm and multi-agent reinforcement learning at Texas Robotics. I also founded HelmPM
 
 [Portfolio](https://aymanmahfuzportfolio.com) · [LinkedIn](https://linkedin.com/in/aymanmahfuz)
 
