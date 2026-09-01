@@ -1,37 +1,18 @@
 # Ayman Mahfuz
 
-I'm a CS student at UT Austin. I love coding, and build ML systems I can measure, debug, and understand.
+UT Austin computer science student graduating May 2027, focused on backend systems, ML infrastructure, and reliable AI.
 
-Most recently, I worked on ML-guided CPU validation at Arm and multi-agent reinforcement learning at Texas Robotics. I also founded HelmPM
+At Arm, I built an ML-guided CPU validation pipeline that used PMU telemetry and Bayesian optimization to find 99.8th-percentile stress configurations with over 99% fewer test executions. At Texas Robotics, I worked on multi-agent reinforcement learning in C++ and PyTorch.
 
 [Portfolio](https://aymanmahfuzportfolio.com) · [LinkedIn](https://linkedin.com/in/aymanmahfuz)
 
 ## Selected work
 
-### [HelmPM](https://helmpm.app)
-
-Multi-tenant project-management platform handling thousands of tickets across four organizations, with document and code retrieval plus automated Linear and Jira sync.
-
-`React` `FastAPI` `PostgreSQL` `OpenAI` `Anthropic`
-
-### [Modern LLM](https://github.com/AymanMahfuz27/modern_llm)
-
-Built and pretrained a 253M-parameter transformer on 600M tokens, then added checkpoint recovery, evaluation, SFT, and DPO for reproducible HPC experiments. [Docs](https://aymanmahfuz27-modern_llm.mintlify.app/architecture/overview)
-
-`Python` `PyTorch` `HPC` `SLURM`
-
-### [LLM and Diffusion Energy Benchmark](https://github.com/AymanMahfuz27/eec_llm_research_project)
-
-Ran 577 tests across 55 configurations and nine models on GH200 GPUs. Measured 24–32% LLM energy reductions from FP8 and INT8, while diffusion showed no savings.
-
-`Python` `PyTorch` `vLLM` `NVML` `Zeus`
-
-## Also built
-
-- [Tool-Call Mechanistic Interpretability](https://github.com/AymanMahfuz27/tool_call_mech_interp) — activation patching, attribution, SAE analysis, and circuit ablation for tool-use decisions.
-- [Stable Diffusion from Scratch](https://github.com/AymanMahfuz27/stable-diffusion-from-scratch) — DDPM and DDIM implementations with training and sampling experiments. [Docs](https://aymanmahfuz27-stable-diffusion-from-scratch.mintlify.app/training/mnist)
-- [TikTok Video Auto-Sorter](https://github.com/AymanMahfuz27/tiktok-auto-collection-sorter) — CLIP and Whisper classifier with an active-learning labeling UI and FastAPI backend. [Architecture](https://aymanmahfuz27-tiktok-auto-collection-sorter.mintlify.app/concepts/architecture)
+- [HelmPM](https://helmpm.app) — Built a multi-tenant project-management platform used across four organizations and thousands of tickets, with document and code retrieval plus automatic Linear and Jira synchronization.
+- [Modern LLM](https://github.com/AymanMahfuz27/modern_llm) — Pretrained a 253M-parameter transformer on 600M tokens and added checkpoint recovery, evaluation, SFT, and DPO for reproducible SLURM experiments. [Documentation](https://aymanmahfuz27-modern_llm.mintlify.app/architecture/overview)
+- [LLM and Diffusion Energy Benchmark](https://github.com/AymanMahfuz27/eec_llm_research_project) — Ran 577 GH200 tests across 55 configurations and nine models; FP8 and INT8 reduced LLM energy by 24–32%, while diffusion quantization produced no savings.
+- [Tool-Call Mechanistic Interpretability](https://github.com/AymanMahfuz27/tool_call_mech_interp) — Analyzed tool-use decisions through activation patching, attribution, sparse autoencoders, and circuit ablation.
 
 ## Tools
 
-Python, C++, PyTorch, FastAPI, PostgreSQL, React, SLURM, Docker, and Linux.
+Python, C++, PyTorch, FastAPI, PostgreSQL, React, Docker, SLURM, and Linux.
